@@ -1,0 +1,232 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.navbar-container {
+    background-color: rgb(0, 0, 0);
+    height: 10vh ;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-style: initial;
+    font-size: 30px;
+}
+
+.li-navbar {
+  transition: all 0.4s ease-in-out;
+  border-radius: 10px;
+  padding: 10px 16px;
+}
+
+.li-navbar:hover {
+  background: linear-gradient(135deg, #ff5f5f, #d11c1c);
+  color: white;
+  transform: scale(1.05); /* sedikit membesar */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.li-navbar:active {
+  transform: scale(0.97); /* saat diklik, sedikit mengecil */
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.a-navbar {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80vh;
+}
+
+.container-content1 {
+  border: 1px solid #ffffff;  
+  display: flex;
+  justify-content: center;
+  align-items: center;   /* Jarak antar gambar lebih kecil */
+  height: 80vh;
+  width: fit-content;
+  border-radius: 8px;
+  background-color: #ffffff; /* Opsional: buat lebih kalem */
+}
+
+.img-contact1,
+.img-contact2 {
+  width: 100px;      /* Ukuran ikon diperkecil */
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.img-contact1:hover,
+.img-contact2:hover {
+  transform: scale(1.1);
+}
+
+
+.img-content {
+    width: 50%;
+    height: 70%;
+}
+
+
+.container-footer {
+    height: 10vh;
+    background-color:  rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-style: inherit;
+    font-size: x-large;
+    color: #ffffff;
+
+}
+
+.profile-card {
+  max-width: 500px;
+  height: 63vh;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 16p;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom:20px;
+}
+
+.profile-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.profile-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.profile-description {
+  font-size: 14.5px;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.profile-links {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+}
+
+.sosmed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  text-align: center;
+  height: 72vh;
+}
+
+.sosmed-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sosmed-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.sosmed-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+.sosmed-text {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.blog-wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.blog-post {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 32px;
+}
+
+.blog-title {
+  font-size: 24px;
+  color: #c0392b;
+  margin-bottom: 6px;
+}
+
+.blog-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 16px;
+}
+
+.blog-content {
+  line-height: 1.8;
+  color: #333;
+}
+
+.img-blog {
+    height: 20%;
+}
